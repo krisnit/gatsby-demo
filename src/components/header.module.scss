@@ -1,0 +1,35 @@
+.header {
+    padding: 1rem 0 1rem;
+}
+
+.title{
+    color:#000000;
+    font-size:3rem;
+    text-decoration:none;
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+
+    a{
+        text-decoration:none;
+        color:#999999;
+        font-size:.9rem;
+        margin-right:1.3rem;
+        
+        &:visited {
+            color:#777777;
+        }
+
+        &:hover {
+            color:#666666;
+        }
+
+        &:active {
+            color:#333333;
+        }
+       
+    }    
+}
+
